@@ -162,15 +162,15 @@ src
 
 - Dashboard
 
-![Dashboard](<src\assets\product-ss\Screenshot 2026-08-05 165531.png>)
+![Dashboard](./src/assets/product-ss/Screenshot 2026-08-05 165531.png)
 
 - Bugs
 
-![Bugs](<src\assets\product-ss\Screenshot 2026-08-05 165429.png>)
+![Bugs](./src/assets/product-ss/Screenshot 2026-08-05 165429.png)
 
 - Bug Details & Dependency Graph
 
-![Bug Details](<src\assets\product-ss\Screenshot 2026-08-05 165514.png>)
+![Bug Details](./src/assets/product-ss/Screenshot 2026-08-05 165514.png)
 
 ---
 
@@ -348,18 +348,3 @@ For each bug, BugScope computes:
 These metrics are derived from graph traversals and summarize the scope of a production issue.
 
 ---
-
-# Future Improvements
-
-- Real-time incident updates
-- Graph filtering
-- Root cause analysis
-- Blast radius visualization
-- Time-based dependency analysis
-- AI-powered impact prediction
-
----
-
-# License
-
-This project was developed as part of the **CognoDB Graph Database Assignment** using Next.js and CognoDB.
