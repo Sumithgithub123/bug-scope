@@ -61,29 +61,29 @@ RETURN p;
 
 ## Node Types
 
-| Label | Description | Properties |
-|--------|-------------|------------|
-| Bug | Production incident | id, title, severity, status |
-| API | Backend endpoint | id, endpoint, method |
-| Service | Microservice | id, name |
-| Team | Engineering team | id, name |
-| Developer | Team member | id, name, role |
-| Frontend | Web/Mobile application | id, name |
-| Customer | End user | id, name |
+| Label     | Description            | Properties                  |
+| --------- | ---------------------- | --------------------------- |
+| Bug       | Production incident    | id, title, severity, status |
+| API       | Backend endpoint       | id, endpoint, method        |
+| Service   | Microservice           | id, name                    |
+| Team      | Engineering team       | id, name                    |
+| Developer | Team member            | id, name, role              |
+| Frontend  | Web/Mobile application | id, name                    |
+| Customer  | End user               | id, name                    |
 
 ---
 
 ## Relationship Types
 
-| Relationship | Description |
-|--------------|-------------|
-| `AFFECTS` | Bug → API |
-| `BELONGS_TO` | API → Service |
-| `CALLS` | Service → Service |
-| `OWNED_BY` | Service → Team |
-| `HAS_MEMBER` | Team → Developer |
-| `CALLS` | Frontend → API |
-| `USES` | Customer → Frontend |
+| Relationship | Description         |
+| ------------ | ------------------- |
+| `AFFECTS`    | Bug → API           |
+| `BELONGS_TO` | API → Service       |
+| `CALLS`      | Service → Service   |
+| `OWNED_BY`   | Service → Team      |
+| `HAS_MEMBER` | Team → Developer    |
+| `CALLS`      | Frontend → API      |
+| `USES`       | Customer → Frontend |
 
 ---
 
@@ -155,6 +155,22 @@ src
 ├── lib
 └── seed
 ```
+
+---
+
+# Product Screenshots
+
+- Dashboard
+
+![Dashboard](<src\assets\product-ss\Screenshot 2026-08-05 165531.png>)
+
+- Bugs
+
+![Bugs](<src\assets\product-ss\Screenshot 2026-08-05 165429.png>)
+
+- Bug Details & Dependency Graph
+
+![Bug Details](<src\assets\product-ss\Screenshot 2026-08-05 165514.png>)
 
 ---
 
