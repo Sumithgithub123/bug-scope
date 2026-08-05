@@ -162,15 +162,15 @@ src
 
 - Dashboard
 
-![Dashboard](./src/assets/product-ss/Screenshot 2026-08-05 165531.png)
+![Dashboard](<./src/assets/product-ss/Screenshot 2026-08-05 165531.png>)
 
 - Bugs
 
-![Bugs](./src/assets/product-ss/Screenshot 2026-08-05 165429.png)
+![Bugs](<./src/assets/product-ss/Screenshot 2026-08-05 165429.png>)
 
 - Bug Details & Dependency Graph
 
-![Bug Details](./src/assets/product-ss/Screenshot 2026-08-05 165514.png)
+![Bug Details](<./src/assets/product-ss/Screenshot 2026-08-05 165514.png>)
 
 ---
 
