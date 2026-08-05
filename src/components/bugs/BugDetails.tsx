@@ -16,7 +16,6 @@ const ForceGraph2D = dynamic(() => import("react-force-graph-2d"), {
 
 async function getBugDetails(id: ParamValue) {
   const { data } = await axios.get(`/api/bugs/${id}`);
-  console.log(data);
 
   return data;
 }
